@@ -10,14 +10,17 @@ const Banner = () => {
     return (
         <div>
             <Carousel>
-                    <div>
+                    <div className='relative'>
                         <img src={img1} alt="" />
+                        <button className='btn btn-accent absolute left-4 bottom-10 '>All Tests</button>
                     </div>
-                    <div >
+                    <div className='relative'>
                         <img src={img2} alt="" />
+                        <button className='btn btn-accent absolute left-4 bottom-10 '>All Tests</button>
                     </div>
-                    <div>
+                    <div className='relative'>
                         <img src={img3} alt="" />
+                        <button className='btn btn-accent absolute left-4 bottom-10 '>All Tests</button>
                     </div>
             </Carousel>
         </div>

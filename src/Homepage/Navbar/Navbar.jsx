@@ -53,7 +53,7 @@ const Navbar = () => {
               <a>Find Doctors</a>
             </li>
             <li>
-              <a>Our Tests</a>
+              <a>All Tests</a>
             </li>
           </ul>
         </div>
