@@ -1,4 +1,5 @@
-import React from 'react';
+import { NavLink } from "react-router-dom";
+
 
 const Login = () => {
     const handleSignin = e =>{
@@ -8,13 +9,12 @@ const Login = () => {
         const password = form.password.value;
         const loginUser = {email, password}
         console.log(loginUser);
+    }
 
 
     return (
         <div>
-            <div className='bg-cover bg-center min-h-screen '
-
->
+            <div className='bg-cover bg-center min-h-screen '>
 
 <h1 className="text-center text-4xl font-bold text-white">Log in here</h1>
 
