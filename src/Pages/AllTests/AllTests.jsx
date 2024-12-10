@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../../Homepage/Navbar/Navbar";
 
 const AllTests = () => {
   return (
     <div>
+        <Navbar></Navbar>
       <div className="card card-compact bg-base-100 w-96 shadow-xl">
         <figure>
           <img

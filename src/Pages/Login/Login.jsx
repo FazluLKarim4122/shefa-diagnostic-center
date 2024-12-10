@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Navbar from "../../Homepage/Navbar/Navbar";
 
 
 const Login = () => {
@@ -15,7 +16,7 @@ const Login = () => {
     return (
         <div>
             <div className='bg-cover bg-center min-h-screen '>
-
+        <Navbar></Navbar>
 
 
 {/* Form */}

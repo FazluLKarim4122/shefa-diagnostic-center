@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import Navbar from '../../Homepage/Navbar/Navbar';
 
 const Register = () => {
 
@@ -31,7 +33,7 @@ const Register = () => {
     return (
         <div className='bg-cover bg-center min-h-screen '>
 
-           
+           <Navbar></Navbar>
 
             
             {/* Register form */}
