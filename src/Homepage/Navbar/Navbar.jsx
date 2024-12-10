@@ -58,7 +58,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn">Log In</a>
           <div className="dropdown dropdown-end">
         <div
           tabIndex={0}
