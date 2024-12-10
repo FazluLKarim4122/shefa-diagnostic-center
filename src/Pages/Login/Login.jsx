@@ -16,7 +16,7 @@ const Login = () => {
         <div>
             <div className='bg-cover bg-center min-h-screen '>
 
-<h1 className="text-center text-4xl font-bold text-white">Log in here</h1>
+
 
 {/* Form */}
 <div className="hero min-h-screen ">
