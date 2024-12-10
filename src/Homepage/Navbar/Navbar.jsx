@@ -1,6 +1,15 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+  const link = <>
+  <li><NavLink to='/'>Home</NavLink></li>
+  <li><NavLink to='/allDoctors'>Find Doctors</NavLink></li>
+  <li><NavLink to='/allTests'>All Tests</NavLink></li>
+  </>
+  
+
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -45,16 +54,18 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <NavLink to='/' className="btn btn-ghost text-xl">Shefa Diagnostic</NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
+
+            {link}
+            {/* <li>
               <a>Find Doctors</a>
             </li>
             <li>
               <a>All Tests</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="navbar-end">
